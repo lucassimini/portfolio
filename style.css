@@ -11,8 +11,7 @@ header{
     padding: 50px;
     height: 630px;
     background: rgb(51,66,73,1);
-    /* background: radial-gradient(200px 300px, rgba(158,163,176,1) 0%, rgba() 10%, rgba(11,43,64,1) 55%); */
-    /* background: radial-gradient(160px 360px, rgba(158,163,176,1) 0%, rgb(99, 109, 112) 8%, rgba(51,66,73,1) 55%); */
+    position: relative;
     
     text-align: center;
     color: white;
@@ -29,7 +28,7 @@ strong{
 #me{
     width: 400px;
     position: absolute;
-    right: 49%;
+    right: 50%;
     bottom: 50%;
     transform: translate(50%, 50%);
 }

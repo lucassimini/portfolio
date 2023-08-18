@@ -3,18 +3,33 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
-    height: 750px;
-    width: 100%;
-    background: rgb(51,66,73);
-    /* background: linear-gradient(90deg, rgba(51,66,73,1) 30%, rgba(255,255,255,1) 50%, rgba(51,66,73,1) 70%); */
-    position: relative;
+    padding: 50px;
+    height: 630px;
+    background: rgb(51,66,73,1);
+    /* background: radial-gradient(200px 300px, rgba(158,163,176,1) 0%, rgba() 10%, rgba(11,43,64,1) 55%); */
+    /* background: radial-gradient(160px 360px, rgba(158,163,176,1) 0%, rgb(99, 109, 112) 8%, rgba(51,66,73,1) 55%); */
+    
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-weight: normal;
+}
+
+strong{
+    color: #FB8B24;
 }
 
 #me{
-    width: 200px;
+    width: 400px;
     position: absolute;
-    right: 50%;
-    top: 50%;
-    transform: translate(50%, -50%);
+    right: 49%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
 }

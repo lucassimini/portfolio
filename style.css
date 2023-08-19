@@ -63,15 +63,13 @@ h2{
     color: black;
     padding: 20px;
     display: block;
-    text-align: center;
     border: 1px solid black; 
     border-radius: 10px;
     width: 50%;
     margin: 10px auto;
-    
-
-    
-
 }
 
+#social-media a:hover{
+    color: white;
+    background-color: black;
 

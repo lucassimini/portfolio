@@ -7,6 +7,7 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 
+
 header{
     padding: 50px 100px;
     height: 630px;
@@ -67,9 +68,20 @@ h2{
     border-radius: 10px;
     width: 50%;
     margin: 10px auto;
+    position: relative;
 }
 
 #social-media a:hover{
     color: white;
     background-color: black;
+}
+
+#projects{
+    height: 630px;
+    background-color: #334249;
+}
+
+
+
+
 

@@ -7,6 +7,12 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 
+body
+
+#container{
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 40%, rgba(86,111,123,1) 90%, rgba(51,66,73,1) 99%);
+}
 
 header{
     padding: 50px 100px;
@@ -15,9 +21,14 @@ header{
     text-align: center;
 }
 
-h1, h2{
+h1{
     font-weight: normal;
 }
+
+h1 strong{
+    font-size: 1.3em;
+}
+
 
 hr{
     position: relative;
@@ -41,6 +52,14 @@ h2{
     max-width: 450px;
     position: absolute;
     top: 23%;
+    font-size: 1.2em;
+}
+
+#about-me p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: light;
+    
+    /* color: gray; */
 }
 
 .margin-top{
@@ -61,6 +80,7 @@ h2{
 
 #social-media a{
     text-decoration: none;
+    font-weight: bold;
     color: black;
     padding: 20px;
     display: block;
@@ -78,7 +98,7 @@ h2{
 
 #projects{
     height: 630px;
-    background-color: #334249;
+    /* background-color: #566f7b; */
 }
 
 

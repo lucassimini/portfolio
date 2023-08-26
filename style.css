@@ -50,9 +50,19 @@ h2{
 
 #about-me{
     text-align: center;
-    max-width: 450px;
+    max-width: 420px;
     position: absolute;
     top: 23%;
+    background-color: #3a3a3a0a;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #3a3a3a73;
+    height: 420px;
+    
+}
+
+#about-me h2{
+    margin-bottom: 15px;
 }
 
 #aboug-me p{
@@ -68,32 +78,44 @@ h2{
 }
 
 #social-media{
-    text-align: center;
-    width: 450px;
+    width: 420px;
     position: absolute;
     right: 100px;
     top: 23%;
+    background-color: #3a3a3a91;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px #3a3a3a73;
+    height: 420px;
+}
+
+#social-media h2{
+    color: #fb8c24;
+    /* border: 3px solid #fb8c24; */
+    /* border-radius: 20px; */
+    margin-bottom: 15px;
+    display: inline-block;
+    /* background-color: #3a3a3a; */
+    text-shadow: 2px 2px 5px #3a3a3a;
 }
 
 #social-media a{
     text-decoration: none;
     font-weight: bold;
-    color: #3a3a3ad0;
-    padding: 20px;
+    color: #fb8c24;
+    padding: 22px;
     display: block;
-    border: 3px solid #fb8c24;
     border-radius: 10px;
-    width: 50%;
+    width: 70%;
     margin: 10px auto;
     position: relative;
-    background-color: #fb8c24;
+    background-color: #3a3a3a;
     box-shadow: 4px 4px 10px #3a3a3a33;
 }
 
 #social-media a:hover{
-    color: #fb8c24;
-    background-color: #3a3a3a;
-    font-weight: 100;
+    color: #3a3a3a;
+    background-color: #fb8c24;
     
 }
 

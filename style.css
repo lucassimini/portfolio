@@ -34,6 +34,7 @@ header h1{
 
 h1 strong{
     font-size: 1.3em;
+    text-shadow: 1px 1px 2px #3a3a3a;
 }
 
 #me{
@@ -63,6 +64,7 @@ h2{
 
 #about-me h2{
     margin-bottom: 15px;
+    text-shadow: 1px 1px 1px #3a3a3a;
 }
 
 #aboug-me p{
@@ -85,7 +87,7 @@ h2{
     background-color: #3a3a3a91;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 4px 4px 10px #3a3a3a73;
+    box-shadow: -4px 4px 10px #3a3a3a73;
     height: 420px;
 }
 
@@ -94,7 +96,6 @@ h2{
     /* border: 3px solid #fb8c24; */
     /* border-radius: 20px; */
     margin-bottom: 15px;
-    display: inline-block;
     /* background-color: #3a3a3a; */
     text-shadow: 2px 2px 5px #3a3a3a;
 }
@@ -120,13 +121,12 @@ h2{
 }
 
 .icon{
-    width: 30px;
+    width: 25px;
     display: block;
     position: absolute;
     top: 50%;
-    left: 18%;
-    transform: translateY(-50%)
-    
+    left: 28%;
+    transform: translateY(-50%);
 }
 
 /* --------------------------------------------PROJECTS-------------------------------------------- */

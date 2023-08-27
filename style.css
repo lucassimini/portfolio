@@ -26,6 +26,7 @@ header{
     position: relative;
     text-align: center;
     color: #3a3a3a;
+     background-color: #3a3a3a0a;
 }
 
 header h1{
@@ -54,7 +55,7 @@ h2{
     max-width: 420px;
     position: absolute;
     top: 23%;
-    background-color: #3a3a3a0a;
+    background-color: white;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 4px 4px 10px #3a3a3a73;
@@ -111,22 +112,20 @@ h2{
     margin: 10px auto;
     position: relative;
     background-color: #3a3a3a;
-    box-shadow: 4px 4px 10px #3a3a3a33;
+    box-shadow: -4px 4px 10px #3a3a3a8c;
 }
 
 #social-media a:hover{
     color: #3a3a3a;
     background-color: #fb8c24;
-    
 }
+
 
 .icon{
     width: 25px;
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 28%;
-    transform: translateY(-50%);
+    /* transform: translateY(30%); */
+    position: relative;
+    top: px;
 }
 
 /* --------------------------------------------PROJECTS-------------------------------------------- */
@@ -138,6 +137,7 @@ h2{
     background-color: #3a3a3a;
     text-align: center;
     color: white;
+    box-shadow: 0px -2px 5px 3px #3a3a3a;
 }
 
 .projects h1{

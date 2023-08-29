@@ -51,29 +51,47 @@ h2{
 }
 
 #about-me{
-    text-align: center;
+    text-align: left;
     max-width: 420px;
     position: absolute;
     top: 23%;
-    background-color: white;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 4px 4px 10px #3a3a3a73;
-    height: 420px;
     
 }
 
 #about-me h2{
-    margin-bottom: 15px;
+    font-size: 18px;
     text-shadow: 1px 1px 1px #3a3a3a;
 }
 
-#aboug-me p{
-    font-family: Arial, Helvetica, sans-serif;
+#about-me p{
+}
+
+#cv-link{
+    width: 80%;
+    /* margin: auto; */
+    text-align: left;
+    margin-top: 40px;
+}
+
+#cv-link a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: #3a3a3a;
+    color: white
+}
+
+#cv-link a:hover{
+    background-color: #fb8c24;
+    color: white;
+    border: 0px;
 }
 
 .margin-top{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .justify{

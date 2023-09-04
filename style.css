@@ -48,6 +48,7 @@ h1 strong{
 
 h2{
     font-weight: bold;
+    font-size: 18px;
 }
 
 #about-me{
@@ -60,12 +61,9 @@ h2{
 }
 
 #about-me h2{
-    font-size: 18px;
     text-shadow: 1px 1px 1px #3a3a3a;
 }
 
-#about-me p{
-}
 
 #cv-link{
     width: 80%;
@@ -103,10 +101,10 @@ h2{
     position: absolute;
     right: 100px;
     top: 23%;
-    background-color: #3a3a3aa5;
+    /* background-color: #3a3a3aa5; */
     padding: 20px;
     border-radius: 20px;
-    box-shadow: -4px 4px 10px #3a3a3a73;
+    /* box-shadow: -4px 4px 10px #3a3a3a73; */
     height: 420px;
 }
 

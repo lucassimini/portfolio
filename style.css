@@ -105,43 +105,28 @@ h2{
     padding: 20px;
     border-radius: 20px;
     /* box-shadow: -4px 4px 10px #3a3a3a73; */
-    height: 420px;
+    height: 280px;
 }
 
 #social-media h2{
-    color: #fb8c24;
-    /* border: 3px solid #fb8c24; */
-    /* border-radius: 20px; */
-    margin-bottom: 15px;
-    /* background-color: #3a3a3a; */
-    text-shadow: 2px 2px 5px #3a3a3a;
+    text-shadow: 1px 1px 1px #3a3a3a;
+    margin-bottom: 20px;
 }
 
-#social-media a{
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+
+}
+
+nav a{
     text-decoration: none;
-    font-weight: bold;
-    color: #fb8c24;
-    padding: 22px;
-    display: block;
-    border-radius: 10px;
-    width: 70%;
-    margin: 10px auto;
-    position: relative;
-    background-color: #3a3a3a;
-    box-shadow: -4px 4px 10px #3a3a3a8c;
 }
 
-#social-media a:hover{
-    color: #3a3a3a;
-    background-color: #fb8c24;
-}
-
-
-.icon{
-    width: 25px;
-    /* transform: translateY(30%); */
-    position: relative;
-    top: px;
+nav img{
+    width: 50px;
 }
 
 /* --------------------------------------------PROJECTS-------------------------------------------- */

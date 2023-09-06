@@ -69,23 +69,34 @@ h2{
     width: 80%;
     /* margin: auto; */
     text-align: left;
-    margin-top: 40px;
+    margin-top: 20px;
+    display: flex;
 }
 
 #cv-link a{
     text-decoration: none;
     color: black;
-    padding: 15px;
+    padding: 13px;
     border-radius: 10px;
     margin-right: 10px;
-    background-color: #3a3a3a;
-    color: white
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: center;
+
+    
 }
 
 #cv-link a:hover{
     background-color: #fb8c24;
     color: white;
     border: 0px;
+}
+
+#cv-link img{
+    width: 30px;
 }
 
 .margin-top{
@@ -125,7 +136,7 @@ nav a{
     text-decoration: none;
 }
 
-.icon-black{
+nav img{
     width: 50px;
 }
 

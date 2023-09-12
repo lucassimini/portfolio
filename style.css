@@ -22,7 +22,7 @@ body{
 
 header{
     padding: 50px 100px;
-    height: 630px;
+    height: 700px;
     position: relative;
     text-align: center;
     color: #3a3a3a;
@@ -85,8 +85,6 @@ h2{
     width: 150px;
     justify-content: space-around;
     align-items: center;
-
-    
 }
 
 #cv-link a:hover{
@@ -129,11 +127,13 @@ nav{
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+    align-items: center;
 
 }
 
 nav a{
     text-decoration: none;
+    width: min-content;
 }
 
 nav img{

@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
 
 @font-face {
     font-family: 'FiraCode';
@@ -62,6 +63,7 @@ h1 strong{
     text-align: left;
     width: 420px;
 }
+
 
 #cv-link{
     margin-top: 20px;
@@ -142,13 +144,30 @@ nav img{
     
 }
 
+/* --------------------------------------------ABOUT ME-------------------------------------------- */
+
 article{
     padding: 20px;
     text-align: center;
 }
 
-article p{
+.content-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em 0px;
+}
+
+.content-about p{
     font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    max-width: 600px;
+    text-align: left;
+}
+
+.content-about img{
+    width: 18em;
+    border-radius: 50%;
 }
 
 
